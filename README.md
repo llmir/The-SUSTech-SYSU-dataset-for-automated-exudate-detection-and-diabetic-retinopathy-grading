@@ -1,7 +1,7 @@
 # The-SUSTech-SYSU-dataset-for-automated-exudate-detection-and-diabetic-retinopathy-grading
 Automated detection of exudates from fundus images plays an important role in diabetic retinopathy (DR) screening and evaluation, for which supervised or semi-supervised learning methods are typically preferred. However, a potential limitation of supervised and semi-supervised learning based detection algorithms is that they depend substantially on the sample size of training data and the quality of annotations, which is the fundamental motivation of this work. In this study, we construct a dataset containing 1219 fundus images (from DR patients and healthy controls) with annotations of exudate lesions. In addition to exudate annotations, we also provide four additional labels for each image: leftversus- right eye label, DR grade (severity scale) from three different grading protocols, the bounding box of the optic disc (OD), and fovea location. This dataset provides a great opportunity to analyze the accuracy and reliability of different exudate detection, OD detection, fovea localization, and DR classification algorithms. Moreover, it will facilitate the development of such algorithms in the realm of supervised and semi-supervised learning.
 
-##Data records
+## Data records
 
 This dataset is publicly available at https://figshare.com/s/792d1b02f65be0c08214, 
 which is stored as a zip file. In the unzipped folder, all the raw fundus images, the exudate annotations, the DR 
@@ -21,7 +21,7 @@ protocols. The exudate detection labels, OD bounding box's coordinates, as well 
 following the same specifications as the Pascal Voc dataset \cite{everingham2015pascal}. Hard and soft exudates 
 are labeled separately in this dataset. In the XML files, "ex" stands for hard exudates and "se" for soft exudates.
 
-##Usage Notes
+## Usage Notes
 
 After copying all images from the "originalImages" folder to the "exudateLabels" and "odFoveaLabels" folders, 
 users can directly open the provided fundus images and the corresponding exudate detection labels, OD bounding 
