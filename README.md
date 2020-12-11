@@ -3,7 +3,7 @@ Automated detection of exudates from fundus images plays an important role in di
 
 **Data records
 
-This dataset is publicly available at https://www.aiforeye.cn/ and https://figshare.com/s/792d1b02f65be0c08214, 
+This dataset is publicly available at https://figshare.com/s/792d1b02f65be0c08214, 
 which is stored as a zip file. In the unzipped folder, all the raw fundus images, the exudate annotations, the DR 
 grading labels, and the OD and fovea location annotations are stored in three subfolders, namely "originalImages", 
 "exudateLabels", and "odFoveaLabels". In the "originalImages" folder, files are saved in the JPG format and named 
