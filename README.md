@@ -40,3 +40,6 @@ refine coarse or inaccurate bounding boxes. It was not specifically designed for
 paper only took hemorrhages as an example. In practice, users only need to use it when the object detection 
 bounding boxes are not accurate. Because our exudate labels provided in this work had been re-checked/corrected 
 by a third ophthalmologist at the final step, they can be used directly without using BBR-Net any more.
+
+## Citation
+Lin, L., Li, M., Huang, Y., Cheng, P., Xia, H., Wang, K., ... & Tang, X. (2020). The SUSTech-SYSU dataset for automated exudate detection and diabetic retinopathy grading. Scientific Data, 7(1), 1-10.
